@@ -18,7 +18,7 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 
 ## Orientador
 
-* Sandra Maria Silveira
+*Sandra Maria Silveira
 
 ## Instruções de utilização
 
