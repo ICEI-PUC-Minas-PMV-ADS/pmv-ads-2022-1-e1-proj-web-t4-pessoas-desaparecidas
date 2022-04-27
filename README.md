@@ -2,7 +2,7 @@
 
 `CURSO`ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA` FUNDAMENTOS DA ENGENHARIA DE SOFTWARE
+`DISCIPLINA` PROJETO DESENVOLVIMENTO APLICAÇÃO WEB FRONT END
 
 `SEMESTRE` 1 SEMESTRE
 
@@ -16,9 +16,9 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 * Rafae Dias Rubio
 
 
-## Orientador
+## Orientado
 
-*Sandra Maria Silveira
+Sandra Maria Silveira
 
 ## Instruções de utilização
 
