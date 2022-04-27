@@ -13,12 +13,12 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 
 * Carlos Jose Leao
 * Gustavo Davi Pacheco da Mata
-* Rafae
-* Nome completo do aluno 4
+* Rafae Dias Rubio
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 
