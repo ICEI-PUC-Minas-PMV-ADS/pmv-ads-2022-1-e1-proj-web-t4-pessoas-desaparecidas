@@ -4,15 +4,16 @@
 
 `DISCIPLINA` FUNDAMENTOS DA ENGENHARIA DE SOFTWARE
 
-`SEMESTRE` PRIMEIRO
+`SEMESTRE` 1 SEMESTRE
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+No Brasil, aproximadamente 62 mil pessoas são dadas como desaparecidas, este projeto ira reunir dados para encurtar a distancia de
+informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa desaparecida, a informação chegara onde jamais nenhum familiar penssara em divulgar o sumiço de seu ente querido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Carlos Jose Leao
+* Gustavo Davi Pacheco da Mata
+* Rafae
 * Nome completo do aluno 4
 
 ## Orientador
