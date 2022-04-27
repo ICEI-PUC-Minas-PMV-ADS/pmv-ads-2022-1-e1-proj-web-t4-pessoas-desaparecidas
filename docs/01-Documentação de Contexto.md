@@ -1,11 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O desaparecimento de pessoas, é um dos mais graves problemas enfrentados pelos brasileiros. Além da falta de dados oficiais e de estudos acadêmicos, a investigação é morosa e as famílias que tiveram seus entes desaparecidos não só não recebem nenhum suporte, como também dependem do andamento dos inquéritos policiais e processos judiciais.
+Em meio ao desenvolvimento tecnológico, dado o potencial das tecnologias disponíveis na web, a interação entre cidadão e governo tem sido mais explorada. O desenvolvimento de soluções tecnológicas que aproximem a sociedade dos processos realizados pelas organizações públicas para encontrar pessoas desaparecidas, é de suma importância para a proteção a vida. 
+Diante disso, torna-se fundamental que existam canais e mecanismos que permitam o tráfego de informações rápidas e objetivas sobre as pessoas desaparecidas.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Esse projeto visa resolver um grave problema, a falta de banco de dados para pessoas desaparecidas iremos reunir e cruzar dados para diminuir o tempo de busca a pessoas desaparecidas.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Essa aplicação podera ser acessada de qualquer aparelho que tenha acesso a internet de qualquer lugar do mundo.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -16,9 +19,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um sistema para que parentes, amigos, empresas e pessoas que estão a procura ou que localizem alguém desaparecido possa entrar em contato com familiares ou orgãos competentes.
+Como objetivos específicos, podemos ressaltar:
+● Inserir informações do desaparecido (dados pessoais, características, quantidades de dias desaparecido, último lugar frequentado, última vestimenta).
+● Divulgar as informações fornecidas pelos familiares ou amigos.
+● Permitir  a empresas e ONGs divulgar pessoas desaparecidas que foram encontradas.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
