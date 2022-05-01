@@ -1,9 +1,6 @@
 # Introdução
 
-O desaparecimento de pessoas, é um dos mais graves problemas enfrentados pelos brasileiros. Além da falta de dados oficiais e de estudos acadêmicos, a investigação é morosa e as famílias que tiveram seus entes desaparecidos não só não recebem nenhum suporte, como também dependem do andamento dos inquéritos policiais e processos judiciais.
-Em meio ao desenvolvimento tecnológico, dado o potencial das tecnologias disponíveis na web, a interação entre cidadão e governo tem sido mais explorada. O desenvolvimento de soluções tecnológicas que aproximem a sociedade dos processos realizados pelas organizações públicas para encontrar pessoas desaparecidas, é de suma importância para a proteção a vida. 
-Diante disso, torna-se fundamental que existam canais e mecanismos que permitam o tráfego de informações rápidas e objetivas sobre as pessoas desaparecidas.
-
+Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -16,7 +13,6 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
@@ -25,7 +21,6 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
@@ -34,7 +29,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
