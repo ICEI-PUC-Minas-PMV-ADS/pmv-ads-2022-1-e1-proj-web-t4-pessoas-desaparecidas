@@ -29,9 +29,7 @@ Como objetivos específicos, podemos ressaltar:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+De acordo com estudos em 2021, o número de pessoas desaparecidas no Brasil no ano passado foi de 62.587. Em São Paulo, Estado com maior registro de casos, a taxa foi reduzida em 15% em comparação ao ano anterior, mas o número de 18.342 desaparecidos ainda é preocupante. Para além do dado, os familiares sofrem com esta condição e demandam necessidades específicas durante o processo de busca pelo ente querido, mas nem sempre o desaparecimento está relacionado a morte, apesar de gerar suspeita que a pessoa possa ter morrido ou algo do tipo configura desaparecimento quando os familiares não têm noticia das vítimas na maioria das vezes parentes viajam em busca de uma vida melhor e perdem contato de onde vieram.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
