@@ -6,16 +6,11 @@ Diante disso, torna-se fundamental que existam canais e mecanismos que permitam 
 
 
 ## Problema
-Esse projeto visa resolver um grave problema, a falta de banco de dados para pessoas desaparecidas iremos reunir e cruzar dados para diminuir o tempo de busca a pessoas desaparecidas.
+Conforme exposto, o problema que se busca resolver com este projeto é o desaparecimento de pessoas que são ocasionado na maioria das vezes por  conflito familiar, ausência de notificação de óbito, transtorno psíquico e drogadição.
 
-Essa aplicação podera ser acessada de qualquer aparelho que tenha acesso a internet de qualquer lugar do mundo.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 ## Objetivos
 
 O objetivo geral deste trabalho é a criação de um sistema para que parentes, amigos, empresas e pessoas que estão a procura ou que localizem alguém desaparecido possa entrar em contato com familiares ou orgãos competentes.
