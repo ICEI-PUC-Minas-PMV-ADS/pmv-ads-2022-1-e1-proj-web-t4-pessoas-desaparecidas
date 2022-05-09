@@ -25,23 +25,13 @@ Como objetivos específicos, podemos ressaltar:
 ● Permitir  a empresas e ONGs divulgar pessoas desaparecidas que foram encontradas.
 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 ## Justificativa
 
 De acordo com estudos em 2021, o número de pessoas desaparecidas no Brasil no ano passado foi de 62.587. Em São Paulo, Estado com maior registro de casos, a taxa foi reduzida em 15% em comparação ao ano anterior, mas o número de 18.342 desaparecidos ainda é preocupante. Para além do dado, os familiares sofrem com esta condição e demandam necessidades específicas durante o processo de busca pelo ente querido, mas nem sempre o desaparecimento está relacionado a morte, apesar de gerar suspeita que a pessoa possa ter morrido ou algo do tipo configura desaparecimento quando os familiares não têm noticia das vítimas na maioria das vezes parentes viajam em busca de uma vida melhor e perdem contato de onde vieram.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Todas as famílias que buscam por um parente ou conhecido próximo que esta desaparecido a todos que tem acesso a internet e rede de informações todos aqueles que podem ajudar uma família que não tenha acesso a internet.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
