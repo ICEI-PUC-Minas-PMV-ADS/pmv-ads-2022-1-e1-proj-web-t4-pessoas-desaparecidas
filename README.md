@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # PESSOAS DESAPARECIDAS
 
 `CURSO`ANALISE E DESENVOLVIMENTO DE SISTEMAS
@@ -15,7 +14,7 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 * Carlos Jose Leao
 * Gustavo Davi Pacheco da Mata
 * Rafae Dias Rubi
-=======
+
 #PESSOAS DESAPARECIDAS
 
 `CURSO` ANALISE E DENSENVOLVIMENTOS DE SISTEMAS 
@@ -34,14 +33,10 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 *Gustavo Davi Pacheco da Mata
 *Rafael Dias Rubio
 
->>>>>>> Stashed changes
 
 
-<<<<<<< Updated upstream
 ## Orientado
 
-=======
->>>>>>> Stashed changes
 Sandra Maria Silveira
 
 ## Instruções de utilização
