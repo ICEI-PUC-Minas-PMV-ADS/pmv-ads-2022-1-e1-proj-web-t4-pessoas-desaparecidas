@@ -1,6 +1,6 @@
 # Introdução
 
- testando O desaparecimento de pessoas, é um dos mais graves problemas enfrentados pelos brasileiros. Além da falta de dados oficiais e de estudos acadêmicos, a investigação é morosa e as famílias que tiveram seus entes desaparecidos não só não recebem nenhum suporte, como também dependem do andamento dos inquéritos policiais e processos judiciais.
+ O desaparecimento de pessoas, é um dos mais graves problemas enfrentados pelos brasileiros. Além da falta de dados oficiais e de estudos acadêmicos, a investigação é morosa e as famílias que tiveram seus entes desaparecidos não só não recebem nenhum suporte, como também dependem do andamento dos inquéritos policiais e processos judiciais.
 Em meio ao desenvolvimento tecnológico, dado o potencial das tecnologias disponíveis na web, a interação entre cidadão e governo tem sido mais explorada. O desenvolvimento de soluções tecnológicas que aproximem a sociedade dos processos realizados pelas organizações públicas para encontrar pessoas desaparecidas, é de suma importância para a proteção a vida. 
 Diante disso, torna-se fundamental que existam canais e mecanismos que permitam o tráfego de informações rápidas e objetivas sobre as pessoas desaparecidas
 
