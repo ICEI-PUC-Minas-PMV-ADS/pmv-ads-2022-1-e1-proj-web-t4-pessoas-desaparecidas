@@ -1,65 +1,63 @@
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
+.page {
+  display: grid;
   width: 100%;
-  border: none;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+  min-height: 100vh;
+  grid-template:
+    [header-left] "nav head" 30vh [header-right]
+    [main-left] "nav  main" 1fr [main-right]
+    / 10rem 1fr;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  grid-area: head;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.active,
-.accordion:hover {
-  background-color: #ccc;
+header div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.panel {
-  display: none;
-  background-color: white;
-  overflow: hidden;
+header div span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-  width: 10vw;
-  height: 100vh;
-  position: fixed;
+  border-right: 1px solid black;
+  grid-area: nav;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background: #eee;
+main {
+  grid-area: main;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-nav li {
-  padding: 0.5rem;
-  height: 3rem;
-  display: grid;
-  place-items: center;
+.card {
+  max-width: 500px;
+  height: 250px;
+  display: flex;
+  border: 2px solid black;
+  margin: 1rem;
 }
 
-nav li:nth-child(even) {
-  background: #fff;
-}
-nav li:nth-child(odd) {
-  background: #eee;
-}
-
-.logo {
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  font-size: 2rem;
-  margin-bottom: 10px;
-  background-color: blue;
-}
-
-.logo a {
-  text-decoration: none;
-  color: #fff;
+.card img {
+  width: 100%;
 }
