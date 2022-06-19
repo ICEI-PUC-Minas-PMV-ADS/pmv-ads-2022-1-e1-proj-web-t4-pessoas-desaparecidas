@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/login.css" />
     <title>Login</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="form">
-        <form action="">
-          <h1>Login</h1>
-          <input type="text" class="user" placeholder="Username" />
-          <input type="password" class="pass" placeholder="Senha" />
-          <button class="login">Login</button>
-          <div class="util">
-            <a href="">Esqueci minha senha</a>
-            <a href="/src/pages/signup.html">Criar conta</a>
-          </div>
-        </form>
-      </div>
+        <div class="form" role="form" onsubmit="login(event)">
+            <form action="">
+                <h1>Login</h1>
+                <input type="text" class="user" placeholder="Username" required/>
+                <input type="password" class="pass" placeholder="Senha" required/>
+                <button class="login" id="button">Login</button>
+                <div class="util">
+                    <a href="">Esqueci minha senha</a>
+                    <a href="/src/pages/signup.html">Criar conta</a>
+                </div>
+            </form>
+        </div>
     </div>
-  </body>
+    <script type="text/javascript">
+        const login = (e) => {
+            e.preventDefault();
+            window.location.href = "/src/pages/index.html"
+        }
+    </script>
+
+</body>
+
 </html>

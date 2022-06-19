@@ -12,17 +12,35 @@
 <body>
     <div class="container">
         <div class="form">
-            <form action="">
+            <form action="" role="form" onsubmit="saveEnc(event)">
                 <h1>Cadastrar Encontrado</h1>
-                <input type="text" class="user" placeholder="Nome da Pessoa" />
-                <input type="text" class="user" placeholder="Local onde foi encontrado" />
-                <input type="date" class="user" placeholder="Data" />
-                <input type="time" class="pass" placeholder="Horário encontrado" />
-                <input type="tel" class="pass" placeholder="Telefone para contato" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+                <input type="text" class="user" placeholder="Nome da Pessoa" id="nome" required/>
+                <input type="text" class="user" placeholder="Local onde foi encontrado" id="local" required/>
+                <input type="date" class="user" placeholder="Data" id="date" required/>
+                <input type="tel" class="pass" placeholder="Telefone para contato" id="tel" required/>
                 <button class="login">Cadastrar</button>
             </form>
         </div>
     </div>
+
+    <script>
+        const saveEnc = (e) => {
+
+            e.preventDefault();
+            let encData = JSON.parse(localStorage.getItem('encData')) || []
+            encData.push({
+                name: document.getElementById('nome').value,
+                local: document.getElementById('local').value,
+                date: document.getElementById('date').value,
+                tel: document.getElementById('tel').value,
+            })
+            localStorage.setItem('encData', JSON.stringify(encData))
+            console.log(localStorage.getItem('encData'))
+
+            alert("Cadastro concluído")
+            window.location.href = "/src/pages/encontradosList.html"
+        }
+    </script>
 </body>
 
 </html>

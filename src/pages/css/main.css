@@ -39,6 +39,27 @@ nav {
     grid-area: nav;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+li {
+    padding: 1rem .3rem;
+}
+
 main {
     grid-area: main;
     padding: 3rem;

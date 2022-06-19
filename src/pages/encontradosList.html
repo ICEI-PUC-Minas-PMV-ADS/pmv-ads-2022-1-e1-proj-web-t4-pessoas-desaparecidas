@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="text/javascript" src="./index.js"></script>
+    <title>Pessoas Desaparecidas</title>
+</head>
+
+<body>
+    <section class="page">
+        <header>
+            <h1>PESSOAS ENCONTRADAS</h1>
+            <div>
+                <span>
+                    <label for="">Pesquisar</label>
+                    <input type="text"/>
+                </span>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/src/pages/index.html">Home</a>
+                </li>
+                <li>
+
+                    <a href="/src/pages/desaparecido.html">Cadastro Desaparecidos</a>
+                </li>
+                <li>
+
+                    <a href="/src/pages/encontrado.html">Cadastro Encontrados</a>
+                </li>
+                <li>
+
+                    <a href="/src/pages/encontradosList.html">Ver Encontrados</a>
+                </li>
+                <li>
+                    <a href="/src/pages/login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="board">
+        </main>
+    </section>
+
+    <script>
+        if (localStorage.getItem('encData')) {
+            var output = document.getElementById("board")
+            output.innerHTML = ""
+            JSON.parse(localStorage.getItem('encData')).forEach(data => {
+                console.log(data.nome, data.idade, data.visto, data.roupa)
+                output.innerHTML += `
+                    <div class="card">
+                        <span>
+                            <img src="./img/atividades-de-pessoas.jpg" alt="" />
+                        </span>
+                        <div id="output">
+                            <p>Nome: ${data.name}</p>
+                            <p>Local encontrado: ${data.local}</p>
+                            <p>Data: ${data.date}</p>
+                            <p>Contato: ${data.tel}</p>
+                            </div>
+                    </div>
+
+                        `
+            })
+
+        }
+    </script>
+</body>
+
+</html>
