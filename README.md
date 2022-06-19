@@ -14,7 +14,9 @@ informações  podendo diminuir rigorosamente o tempo de procura de uma pessoa d
 * Carlos Jose Leao
 * Gustavo Davi Pacheco da Mata
 * Rafae Dias Rubio
-* 
+* Ana Nykelly Gonçalves Rodrigues
+* Luis Felipe Nascimento
+* Carlos Jose Leao Freitas
 
 #PESSOAS DESAPARECIDAS
 
