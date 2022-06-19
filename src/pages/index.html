@@ -1,136 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <script type="text/javascript" src="./index.js"></script>
     <title>Pessoas Desaparecidas</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="page">
-      <header>
-        <h1>HOMEPAGE - TELA INICIAL</h1>
-        <div>
-          <span
-            ><label for="">PESSOAS DESAPARECIDAS</label><input type="text"
+        <header>
+            <h1>HOMEPAGE - TELA INICIAL</h1>
+            <div>
+                <span><label for="">PESSOAS DESAPARECIDAS</label><input type="text"
           /></span>
-          <span
-            ><label for="">PESSOAS ENCONTRADAS</label><input type="text"
+                <span><label for="">PESSOAS ENCONTRADAS</label><input type="text"
           /></span>
-        </div>
-      </header>
-      <nav>Navigation</nav>
-      <main>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./img/atividades-de-pessoas.jpg" alt="" />
-          <div>
-            <p>Nome: Rosângela Maria</p>
-            <p>Idade: 22 anos</p>
-            <p>Vista por último em: 21/03/2022</p>
-            <p>Última vestimenta: Blusa azul, calça...</p>
-          </div>
-        </div>
-      </main>
+            </div>
+        </header>
+        <nav>Navigation</nav>
+        <main>
+            <div class="card">
+                <span>
+                    <img src="./img/atividades-de-pessoas.jpg" alt="" />
+                </span>
+                <div>
+                    <p>Nome: <span id="nome1" class="info"></span></p>
+                    <p>Idade: <span id="idade1"></span></p>
+                    <p>Vista por último em: <span id="visto1"></span></p>
+                    <p>Última vestimenta: <span id="roupa1"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <span>
+                  <img src="./img/atividades-de-pessoas.jpg" alt="" />
+              </span>
+                <div>
+                    <p>Nome: <span id="nome2"></span></p>
+                    <p>Idade: <span id="idade2"></span></p>
+                    <p>Vista por último em: <span id="visto2"></span></p>
+                    <p>Última vestimenta: <span id="roupa2"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <span>
+                  <img src="./img/atividades-de-pessoas.jpg" alt="" />
+              </span>
+                <div>
+                    <p>Nome: <span id="nome3"></span></p>
+                    <p>Idade: <span id="idade3"></span></p>
+                    <p>Vista por último em: <span id="visto3"></span></p>
+                    <p>Última vestimenta: <span id="roupa3"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <span>
+                  <img src="./img/atividades-de-pessoas.jpg" alt="" />
+              </span>
+                <div>
+                    <p>Nome: <span id="nome4"></span></p>
+                    <p>Idade: <span id="idade4"></span></p>
+                    <p>Vista por último em: <span id="visto4"></span></p>
+                    <p>Última vestimenta: <span id="roupa4"></span></p>
+                </div>
+            </div>
+        </main>
     </section>
 
     <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
+        //Pessoa 1
+        localStorage.setItem("nome1", "João Pereira");
+        localStorage.setItem("idade1", "27");
+        localStorage.setItem("visto1", "09/06/2020");
+        localStorage.setItem("roupa1", "Blusa azul, Calça preta, Tênis azul");
+        document.getElementById("nome1").innerHTML = localStorage.getItem("nome1");
+        document.getElementById("idade1").innerHTML = localStorage.getItem("idade1");
+        document.getElementById("visto1").innerHTML = localStorage.getItem("visto1");
+        document.getElementById("roupa1").innerHTML = localStorage.getItem("roupa1");
+        //Pessoa 2
+        localStorage.setItem("nome2", "Caio Antunes");
+        localStorage.setItem("idade2", "48");
+        localStorage.setItem("visto2", "03/08/2017");
+        localStorage.setItem("roupa2", "Blusa preta, Bermuda jeans, Sandália preta");
+        document.getElementById("nome2").innerHTML = localStorage.getItem("nome2");
+        document.getElementById("idade2").innerHTML = localStorage.getItem("idade2");
+        document.getElementById("visto2").innerHTML = localStorage.getItem("visto2");
+        document.getElementById("roupa2").innerHTML = localStorage.getItem("roupa2");
+        //Pessoa 3
+        localStorage.setItem("nome3", "Joana Angelica");
+        localStorage.setItem("idade3", "16");
+        localStorage.setItem("visto3", "04/01/2009");
+        localStorage.setItem("roupa3", "Vestido verde, Sandalia de couro");
+        document.getElementById("nome3").innerHTML = localStorage.getItem("nome3");
+        document.getElementById("idade3").innerHTML = localStorage.getItem("idade3");
+        document.getElementById("visto3").innerHTML = localStorage.getItem("visto3");
+        document.getElementById("roupa3").innerHTML = localStorage.getItem("roupa3");
+        //Pessoa 4
+        localStorage.setItem("nome4", "Cintia Marque");
+        localStorage.setItem("idade4", "43");
+        localStorage.setItem("visto4", "01/01/2022");
+        localStorage.setItem("roupa4", "Vestido vermelho, salto preto");
+        document.getElementById("nome4").innerHTML = localStorage.getItem("nome4");
+        document.getElementById("idade4").innerHTML = localStorage.getItem("idade4");
+        document.getElementById("visto4").innerHTML = localStorage.getItem("visto4");
+        document.getElementById("roupa4").innerHTML = localStorage.getItem("roupa4");
     </script>
-  </body>
+</body>
+
 </html>

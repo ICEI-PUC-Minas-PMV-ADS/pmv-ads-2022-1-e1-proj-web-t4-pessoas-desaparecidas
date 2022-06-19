@@ -1,63 +1,78 @@
 .page {
-  display: grid;
-  width: 100%;
-  min-height: 100vh;
-  grid-template:
-    [header-left] "nav head" 30vh [header-right]
-    [main-left] "nav  main" 1fr [main-right]
-    / 10rem 1fr;
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid-template: [header-left] "nav head" 30vh [header-right] [main-left] "nav  main" 1fr [main-right] / 10rem 1fr;
 }
 
 h1 {
-  margin: 0;
+    margin: 0;
 }
 
 header {
-  grid-area: head;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  text-align: center;
+    grid-area: head;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
 }
 
 header div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header div span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
-  border-right: 1px solid black;
-  grid-area: nav;
+    border-right: 1px solid black;
+    grid-area: nav;
 }
 
 main {
-  grid-area: main;
-  padding: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    grid-area: main;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
 }
 
 .card {
-  max-width: 500px;
-  height: 250px;
-  display: flex;
-  border: 2px solid black;
-  margin: 1rem;
+    height: 300px;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem;
+}
+
+.card div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.card span {
+    display: grid;
+    place-items: center;
 }
 
 .card img {
-  width: 100%;
+    width: 100%;
+}
+
+.info {
+    width: fit-content;
+}
+
+.card div p {
+    display: flex;
+    align-items: center;
 }

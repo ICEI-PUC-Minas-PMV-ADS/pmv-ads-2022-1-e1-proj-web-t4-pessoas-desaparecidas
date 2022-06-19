@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/login.css" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="form">
-        <form action="">
-          <h1>Cadastrar</h1>
-          <input type="text" class="user" placeholder="Username" />
-          <input type="text" class="user" placeholder="Nome Completo" />
-          <input type="number" class="user" placeholder="CPF" />
-          <input type="password" class="pass" placeholder="Senha" />
-          <input type="password" class="pass" placeholder="Confirme a senha" />
-          <button class="login">Criar</button>
-          <div class="util">
-            <a href="/src/pages/login.html">Ja tenho uma conta</a>
-          </div>
-        </form>
-      </div>
+        <div class="form">
+            <form action="" role="form" onsubmit="signUp(event)">
+                <h1>Cadastrar</h1>
+                <input type="text" class="user" placeholder="Username" name="user" id="user" required/>
+                <input type="text" class="user" placeholder="Nome Completo" name="name" id="name" required/>
+                <input type="number" class="user" placeholder="CPF" name="cpf" id="cpf" required/>
+                <input type="password" class="pass" placeholder="Senha" name="pass" id="pass" required/>
+                <button class="login" type="submit">Criar</button>
+                <div class="util">
+                    <a href="/src/pages/login.html">Ja tenho uma conta</a>
+                </div>
+            </form>
+        </div>
     </div>
-  </body>
+
+    <script>
+        const signUp = (e) => {
+            // alert("The form was submitted");
+            e.preventDefault();
+            let userData = {
+                user: document.getElementById('user').value,
+                name: document.getElementById('name').value,
+                cpf: document.getElementById('cpf').value,
+                senha: document.getElementById('pass').value,
+            }
+            localStorage.setItem('userData', JSON.stringify(userData))
+            console.log(localStorage.getItem('userData'))
+        }
+    </script>
+</body>
+
 </html>
