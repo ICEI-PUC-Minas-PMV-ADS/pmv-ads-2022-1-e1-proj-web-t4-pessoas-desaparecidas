@@ -25,19 +25,20 @@
             </form>
         </div>
     </div>
-
-    <script>
+    <script type="text/javascript">
         const signUp = (e) => {
-            // alert("The form was submitted");
+
             e.preventDefault();
-            let userData = {
+            let userData = JSON.parse(localStorage.getItem('userData')) || []
+            userData.push({
                 user: document.getElementById('user').value,
                 name: document.getElementById('name').value,
                 cpf: document.getElementById('cpf').value,
                 senha: document.getElementById('pass').value,
-            }
+            })
             localStorage.setItem('userData', JSON.stringify(userData))
             console.log(localStorage.getItem('userData'))
+            window.location.href = "/src/pages/index.html"
         }
     </script>
 </body>

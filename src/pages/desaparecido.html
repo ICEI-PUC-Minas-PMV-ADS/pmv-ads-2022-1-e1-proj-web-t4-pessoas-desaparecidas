@@ -12,20 +12,37 @@
 <body>
     <div class="container">
         <div class="form">
-            <form action="">
+            <form action="" role="form" onsubmit="saveDes(event)">
                 <h1>Cadastrar Desaparecido</h1>
-                <input type="text" class="user" placeholder="Nome da Pessoa" />
-                <input type="number" class="user" placeholder="Idade" />
-                <input type="date" class="user" placeholder="Data do desaparecimento" />
-                <input type="time" class="pass" placeholder="Ultimo horário visto" />
-                <input type="text" class="pass" placeholder="Ultima vestimenta" />
-                <textarea class="user" placeholder="Informações adicionais"></textarea>
+                <input type="text" class="user" placeholder="Nome da Pessoa" id="nome" required/>
+                <input type="number" class="user" placeholder="Idade" id="idade" required/>
+                <input type="date" class="user" placeholder="Data do desaparecimento" id="date" required/>
+                <textarea class="user" placeholder="Informações adicionais" id="infos" required></textarea>
                 <p>Envie uma foto da pessoa</p>
                 <input type="file" id="img" name="img" accept="image/*">
-                <button class="login">Cadastrar</button>
+                <button class="login" type="submit">Cadastrar</button>
             </form>
         </div>
     </div>
+
+    <script>
+        const saveDes = (e) => {
+
+            e.preventDefault();
+            let desData = JSON.parse(localStorage.getItem('desData')) || []
+            desData.push({
+                name: document.getElementById('nome').value,
+                idade: document.getElementById('idade').value,
+                date: document.getElementById('date').value,
+                infos: document.getElementById('infos').value,
+            })
+            localStorage.setItem('desData', JSON.stringify(desData))
+            console.log(localStorage.getItem('desData'))
+
+            alert("Cadastro concluído")
+            window.location.href = "/src/pages/index.html"
+        }
+    </script>
 </body>
 
 </html>
